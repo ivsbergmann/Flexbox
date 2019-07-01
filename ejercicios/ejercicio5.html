@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio 5</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        margin: 0 auto;
+        width: 52%;
+    }
+
+    .container__row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    .container__box {
+        flex-direction: column;
+        margin: 10px;
+        align-content: space-around;
+    }
+
+    .container__box--sm {
+        margin: 10px 8px 0 8px;
+        width: 25%;
+        flex-basis: 200px;
+    }
+
+    .container__box--md {
+        height: 300px;
+        width: 200px;
+        flex-basis: 200px;
+    }
+
+    .container__box--lg {
+        margin: 10px;
+        flex-basis: 100%;
+        width: 100%;
+        padding-top: 4px;
+     }
+    
+</style>
+
+<body>
+    <main class="container">
+        <section class="container__row">
+            <div class="container__box container__box--sm"><img src=img/foto1.png></div>
+            <div class="container__box container__box--sm"><img src=img/foto2.png></div>
+            <div class="container__box container__box--sm"><img src=img/foto3.png></div>
+            <div class="container__box container__box--sm"><img src=img/foto4.png></div>
+        </section>
+        <section class="container__row">
+            <div class="container__box container__box--lg"><img src="img/BG.png"></div>
+        </section>
+        <section class="container__row">
+            <div class="container__box container__box--sm"><img src="img/foto2.png"></div>
+            <div class="container__box container__box--md"><img src="img/foto6.png"></div>
+            <div class="container__box container__box--sm"><img src="img/foto7.png"></div>
+            <div class="container__box container__box--md"><img src="img/foto6.png"></div>
+        </section>
+    </main>
+
+</body>
+
+</html>

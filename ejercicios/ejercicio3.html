@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ejercicio 3</title>
+    <style>
+    body {
+        background-color: #CCC;
+        margin: 0;
+        padding: 0;
+      }
+  
+      .navigation-bar {
+        align-items: center;
+        background-color: #CCC;
+        border: 1px solid #000;
+        box-sizing: border-box;
+        display: flex;
+        height: 50px;
+        justify-content: flex-start;
+        margin: 80px auto;
+        padding: 45px 25px;
+        width: 80%;
+      }
+  
+     img {
+         width: 50px;
+     }
+      .navigation-bar__list {
+        display: inherit;
+        flex-grow: 1;
+        justify-content: flex-end;
+        list-style: none;
+        font-family: monospace;
+        font-size: 17px;
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+      }
+  
+      .navigation-bar__item {
+        display: inline;
+        margin: 0 20px;
+      }
+  
+      .navigation-bar__item:last-child {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navigation-bar">
+      <span class="navigation-bar__brand"><img src="img/icons8-pokemon-64.png"></span>
+      <ul class="navigation-bar__list">
+        <li class="navigation-bar__item">Inicio</li>
+        <li class="navigation-bar__item">Entrevistas</li>
+        <li class="navigation-bar__item">Música</li>
+        <li class="navigation-bar__item">Tendencias</li>
+      </ul>
+    </nav>
+  </body>
+  </html>
